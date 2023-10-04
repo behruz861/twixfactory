@@ -1,0 +1,5 @@
+<h1>{{ product.name }}</h1>
+<p>Category: {{ product.category }}</p>
+<p>Price: {{ product.price }}</p>
+<p>Availability: {% if product.availability %}Available{% else %}Not Available{% endif %}</p>
+<p>Description: {{ product.description }}</p>
